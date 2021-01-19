@@ -15,6 +15,12 @@ reproductibilité des analyses, ainsi qu’un partage plus facile.
 
 Pour installer le pacakge :
 
+``` r
+#install.packages("remotes")
+library(remotes)
+install_github("AThibault92/arborea")
+```
+
 ## Structure des dossiers
 
 ``` r

@@ -23,6 +23,13 @@ Arborea est un package R permettant de structurer les analyses de données pour 
 
 Pour installer le pacakge :
 
+```{r eval=FALSE}
+#install.packages("remotes")
+library(remotes)
+install_github("AThibault92/arborea")
+```
+
+
 ## Structure des dossiers
 
 
