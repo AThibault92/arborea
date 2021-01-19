@@ -6,6 +6,7 @@ Authors@R:
            family = "Thibault",
            role = c("aut", "cre"),
            email = "alexandre.thibault@anteagroup.com"
+           )
 Description: Arborea est un package R permettant de structurer les analyses de données pour les projets d'anteagroup. Il permet une meilleure reproductibilité des analyses, ainsi qu'un partage plus facile.
 License: file LICENSE
 Encoding: UTF-8
