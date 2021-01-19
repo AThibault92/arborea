@@ -24,6 +24,15 @@ create_arborea <- function(path){
   dir.create(path = file.path(path, "dev"))
   dir.create(path = file.path(path, "css"))
 
+  # Création du .Rprofile
+  file.create(".Rprofile")
+  write(x = "## Permet de charger le pacakge arborea des que le projet est lance", file = nom_rmd, append = TRUE)
+  write(x = "if (requireNamespace(\"arborea\", quietly = TRUE)) {", file = nom_rmd, append = TRUE)
+  write(x = "  message(\"Chargement du .Rprofile pour le projet arborea\")", file = nom_rmd, append = TRUE)
+  write(x = "  library(\"arborea\")", file = nom_rmd, append = TRUE)
+  write(x = "} else {", file = nom_rmd, append = TRUE)
+  write(x = "  message(\"Le package arborea n'est pas installé\")", file = nom_rmd, append = TRUE)
+  write(x = "}", file = nom_rmd, append = TRUE)
 
   # Copier de tous les fichiers nécéssaires
   file_path <- system.file("template", package = "arborea")
