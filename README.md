@@ -7,9 +7,9 @@
 
 <!-- badges: end -->
 
-Arborea est un package R permetant de structurer les analyses de données
-pour les projets d’anteagroup. Il permet une meilleure reproductibilité
-des analyses, ainsi qu’un partage plus facile.
+Arborea est un package R permettant de structurer les analyses de
+données pour les projets d’anteagroup. Il permet une meilleure
+reproductibilité des analyses, ainsi qu’un partage plus facile.
 
 ## Installation
 
